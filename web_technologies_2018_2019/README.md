@@ -1,5 +1,5 @@
 web_technologies_2018_2019
-	-app => Скрита за потребителя
+	-app => Hidden for the user
 		-controllers
 			-add.php
 			-change.php
@@ -11,11 +11,11 @@ web_technologies_2018_2019
 			-profile.php
 			-register.php
 		-core
-			-app.php => основния клас на приложението, обработва URL-a
+			-app.php => main class, processing URL
 			-Controller.php
 		-include
-			-vars.php => файла с информация за връзката с базата данни
-			-onemilionpixels.sql => базата данни
+			-vars.php => file with information for the DB
+			-onemilionpixels.sql => Database
 		-models
 			-database.php
 			-Pixel.php
@@ -27,15 +27,15 @@ web_technologies_2018_2019
 			-login_view.php
 			-profile_view.php
 			-register_view.php
-		-.htaccess => Ограничава достъпа на потребителите
-		-init.php => Включва файлове, инициализира базата данни
-	-public => Потребителят има достъп до тази папка
+		-.htaccess => Limit user access
+		-init.php => Include files, initializing DB
+	-public => The user has access to this folder
 		-css
 			-profile_style.css
 			-reg_style.css
 			-style.css
 		-images
-		-.htaccess => достъп и правило за обработка на URL-а
-		-index.php => вика init.php, създава инстанция на приложението
+		-.htaccess => access and rules to proccess URL
+		-index.php => calls init.php, creates instance of the app
 README.txt
 wwwTech2018_19_11ed_SI_REQ_fn62001_fn61982.docs
