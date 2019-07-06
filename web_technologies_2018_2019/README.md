@@ -1,0 +1,41 @@
+web_technologies_2018_2019
+	-app => Скрита за потребителя
+		-controllers
+			-add.php
+			-change.php
+			-changeInfo.php
+			-delete.php
+			-home.php
+			-login.php
+			-logout.php
+			-profile.php
+			-register.php
+		-core
+			-app.php => основния клас на приложението, обработва URL-a
+			-Controller.php
+		-include
+			-vars.php => файла с информация за връзката с базата данни
+			-onemilionpixels.sql => базата данни
+		-models
+			-database.php
+			-Pixel.php
+			-User.php
+		-views
+			-add_view.php
+			-change_view.php
+			-home_view.php
+			-login_view.php
+			-profile_view.php
+			-register_view.php
+		-.htaccess => Ограничава достъпа на потребителите
+		-init.php => Включва файлове, инициализира базата данни
+	-public => Потребителят има достъп до тази папка
+		-css
+			-profile_style.css
+			-reg_style.css
+			-style.css
+		-images
+		-.htaccess => достъп и правило за обработка на URL-а
+		-index.php => вика init.php, създава инстанция на приложението
+README.txt
+wwwTech2018_19_11ed_SI_REQ_fn62001_fn61982.docs

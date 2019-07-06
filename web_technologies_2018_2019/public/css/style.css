@@ -1,0 +1,116 @@
+body {
+  background: url("images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav {
+
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 80%;
+  float: right;
+}
+
+.logo {
+  max-width: 50%;
+  float:left;
+}
+
+section {
+  position: absolute;
+  margin-top: 15%;
+  width: 90%;
+  margin-left: 3%;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .logo {
+    width: 50%;
+  }
+
+}
+
+p {
+  color: white;
+}
+
+.container {
+    align-content: center;
+    height: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .cell, .cell-empty {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+  }
+
+  .cell {
+    background-color: black;
+  }
+
+  .cell img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.free {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    width: 25%;
+  }
+
+/* Zoom every pixel on hover */
+  .cell:hover, .cell-empty:hover {
+    background-color: black;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+
+  .greeting {
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    margin-top: 10%;
+    margin-right: 10%;
+    float: left;
+  }
+
+/* Buttons style */
+a.button3 {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button3:hover{
+    background-color:#4095c6;
+}
+
+  @media all and (max-width:30em){
+   a.button3{
+    display:block;
+    margin:0.2em auto;
+  }
+}
